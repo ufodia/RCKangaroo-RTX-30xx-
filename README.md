@@ -1,6 +1,6 @@
 # RCKangaroo
 
-Solving ECDLP with Kangaroos - Part #2:
+Solving ECDLP with Kangaroos - Part #3:
 
 Fast ECDLP Solver for RTX40xx GPUs based on SOTA method.
 
