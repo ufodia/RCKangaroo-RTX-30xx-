@@ -1,6 +1,6 @@
 Notes From Ufodia: 
 
-  Code revised to work on 3000 series cards (tested on puz 70, it works).  Makefile added to compile on Linux.  
+  Code revised to work on 3000 series cards (tested on puz 70, it works).  Makefile added to compile on Linux.  !!Maybe he does not need but if you find the key, please donate to RetiredC!!
 
 (c) 2024, RetiredCoder (RC)
 
