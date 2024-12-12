@@ -8,6 +8,8 @@ RCKangaroo is free and open-source (GPLv3).
 This software demonstrates efficient GPU implementation of SOTA Kangaroo method for solving ECDLP. 
 It's part #3 of my research, you can find more details here: https://github.com/RetiredC
 
+Discussion thread: https://bitcointalk.org/index.php?topic=5517607
+
 Features:
 
 - Lowest K=1.15, it means 1.8 times less required operations compared to classic method with K=2.1, also it means that you need 1.8 times less memory to store DPs.
