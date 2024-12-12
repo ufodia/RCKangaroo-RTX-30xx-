@@ -1,3 +1,8 @@
+Notes From Ufodia: 
+
+  .Code revised to work on 3000 series cards (tested on puz 70, it works)
+  .Makefile added to compile on Linux 
+
 (c) 2024, RetiredCoder (RC)
 
 RCKangaroo is free and open-source (GPLv3).
