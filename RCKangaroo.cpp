@@ -96,7 +96,7 @@ void InitGpus()
 		cudaGetDeviceProperties(&deviceProp, i);
 		printf("GPU %d: %s, %.2f GB, %d CUs, cap %d.%d, PCI %d, L2 size: %d KB\r\n", i, deviceProp.name, ((float)(deviceProp.totalGlobalMem / (1024 * 1024))) / 1024.0f, deviceProp.multiProcessorCount, deviceProp.major, deviceProp.minor, deviceProp.pciBusID, deviceProp.l2CacheSize / 1024);
 		
-		if (deviceProp.l2CacheSize < 16 * 1024 * 1024) //we need large L2 cache which is available for ADA and later. 16MB means RTX4050, the slowest card with minimal L2
+		if (deviceProp.l2CacheSize < 1 * 1024 * 1024) //we need large L2 cache which is available for ADA and later. 16MB means RTX4050, the slowest card with minimal L2
 		{
 			printf("GPU %d - L2 cache size is too small for this application, skip\r\n", i);
 			continue;
